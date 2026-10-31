@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+  <title id="title">3D contribution profile setup placeholder</title>
+  <desc id="desc">This placeholder is replaced by the GitHub Actions 3D contribution profile generator.</desc>
+  <rect width="900" height="180" rx="14" fill="#0d1424"/>
+  <rect x="1" y="1" width="898" height="178" rx="13" fill="none" stroke="#334155"/>
+  <g fill="#94a3b8" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="450" y="76" font-size="20" font-weight="700">3D CONTRIBUTION PROFILE</text>
+    <text x="450" y="108" font-size="13">Run “Generate 3D Contribution Profile” in the Actions tab to generate this visual.</text>
+  </g>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Abhay Shravan — Engineering Dashboard</title>
+  <desc id="desc">A dark advanced developer dashboard connecting software, AI systems, networks and architecture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#101d38"/>
+      <stop offset="1" stop-color="#1b1550"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12233b" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#0b1428" stop-opacity=".96"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#7dd3fc" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .muted { fill: #8fa6c7; }
+      .bright { fill: #eff6ff; }
+      .cyan { fill: #67e8f9; }
+      .small { font-size: 12px; letter-spacing: 1.8px; }
+      .wire { fill: none; stroke: #38bdf8; stroke-width: 1.7; stroke-opacity: .72; stroke-dasharray: 7 8; animation: flow 8s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-in-out infinite; }
+      .float { animation: float 5s ease-in-out infinite; }
+      .cursor { animation: blink 1s steps(2, start) infinite; }
+      .scan { animation: scan 5.5s ease-in-out infinite; }
+      @keyframes flow { to { stroke-dashoffset: -120; } }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(.88); } 50% { opacity: 1; transform: scale(1.12); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes scan { 0%,100% { transform: translateY(0); opacity: .1; } 50% { transform: translateY(170px); opacity: .5; } }
+      @media (prefers-reduced-motion: reduce) {
+        .wire,.pulse,.float,.cursor,.scan { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="428" rx="21" fill="none" stroke="#6ee7f9" stroke-opacity=".24"/>
+
+  <!-- Console chrome -->
+  <rect x="1" y="1" width="1198" height="48" rx="21" fill="#081323" fill-opacity=".93"/>
+  <path d="M1 48H1199" stroke="#36506f" stroke-opacity=".7"/>
+  <circle cx="27" cy="25" r="5" fill="#fb7185"/>
+  <circle cx="47" cy="25" r="5" fill="#fbbf24"/>
+  <circle cx="67" cy="25" r="5" fill="#34d399"/>
+  <text x="91" y="30" fill="#9fb6d5" font-size="12" class="mono">abhay@engineering-lab: ~/profile</text>
+  <rect x="1002" y="14" width="164" height="23" rx="11.5" fill="#0d2c3b" stroke="#155e75"/>
+  <circle cx="1018" cy="25.5" r="4" fill="#34d399" class="pulse"/>
+  <text x="1030" y="30" fill="#a5f3fc" font-size="10" letter-spacing="1.3">LEARNING MODE</text>
+
+  <!-- Left profile console -->
+  <text x="42" y="91" class="cyan small mono">ENGINEERING PROFILE / 001</text>
+  <text x="42" y="139" class="bright" font-size="37" font-weight="700">Multi-disciplinary</text>
+  <text x="42" y="181" class="bright" font-size="37" font-weight="700">Computer Engineer</text>
+  <text x="43" y="216" class="muted" font-size="16">Exploring the layers. Connecting the systems.</text>
+  <text x="43" y="240" class="muted" font-size="16">Building ideas into interactive projects.</text>
+
+  <rect x="42" y="273" width="535" height="105" rx="12" fill="#07101e" fill-opacity=".9" stroke="#28415e"/>
+  <text x="61" y="299" fill="#647f9f" font-size="11" letter-spacing="1.8" class="mono">~/engineering/mindset</text>
+  <text x="61" y="328" fill="#93c5fd" font-size="14" class="mono">$ understand → design → build → improve</text>
+  <text x="61" y="354" fill="#a7f3d0" font-size="13" class="mono">$ exploring: software | AI | networks | systems</text>
+  <rect x="546" y="340" width="8" height="17" rx="1" fill="#67e8f9" class="cursor"/>
+
+  <!-- Right side system map panel -->
+  <rect x="624" y="70" width="536" height="308" rx="16" fill="url(#panel)" stroke="#314a70" stroke-opacity=".9"/>
+  <text x="650" y="98" class="muted small mono">DOMAIN MAP / CONNECTED DISCIPLINES</text>
+  <path d="M624 111H1160" stroke="#2b4162"/>
+
+  <!-- Orbit and connectors -->
+  <circle cx="900" cy="247" r="112" fill="none" stroke="#36547a" stroke-opacity=".45" stroke-dasharray="3 9"/>
+  <circle cx="900" cy="247" r="78" fill="none" stroke="#4f46e5" stroke-opacity=".3" stroke-dasharray="2 7"/>
+  <path class="wire" d="M900 247L765 166M900 247L1040 165M900 247L765 320M900 247L1040 320"/>
+  <path d="M900 247L900 137" stroke="#818cf8" stroke-opacity=".45" stroke-dasharray="3 7"/>
+
+  <!-- Core node -->
+  <circle cx="900" cy="247" r="51" fill="#172d4b" stroke="#38bdf8" stroke-width="1.5"/>
+  <circle cx="900" cy="247" r="42" fill="#0e1b34" stroke="#818cf8" stroke-opacity=".7"/>
+  <circle cx="900" cy="247" r="58" fill="none" stroke="#22d3ee" stroke-opacity=".35" class="pulse"/>
+  <text x="900" y="244" text-anchor="middle" fill="#e0f2fe" font-size="13" font-weight="700" letter-spacing="1.5">BUILD</text>
+  <text x="900" y="263" text-anchor="middle" fill="#7dd3fc" font-size="10" class="mono">/ CONNECT</text>
+
+  <!-- Domain node: software -->
+  <g class="float">
+    <rect x="680" y="135" width="172" height="62" rx="11" fill="#0d2a40" stroke="#0e7490"/>
+    <circle cx="701" cy="157" r="6" fill="#22d3ee" filter="url(#glow)"/>
+    <text x="716" y="161" fill="#a5f3fc" font-size="13" font-weight="700">SOFTWARE</text>
+    <text x="697" y="182" fill="#8ba8c7" font-size="10" class="mono">PYTHON / WEB</text>
+  </g>
+  <!-- Domain node: AI -->
+  <g class="float" style="animation-delay:-1.2s">
+    <rect x="956" y="135" width="176" height="62" rx="11" fill="#211b48" stroke="#6d5bd0"/>
+    <circle cx="977" cy="157" r="6" fill="#a78bfa" filter="url(#glow)"/>
+    <text x="992" y="161" fill="#ddd6fe" font-size="13" font-weight="700">AI SYSTEMS</text>
+    <text x="973" y="182" fill="#a99bd2" font-size="10" class="mono">AGENTS / WORKFLOWS</text>
+  </g>
+  <!-- Domain node: networks -->
+  <g class="float" style="animation-delay:-2.1s">
+    <rect x="680" y="291" width="172" height="62" rx="11" fill="#102d36" stroke="#0f766e"/>
+    <circle cx="701" cy="313" r="6" fill="#34d399" filter="url(#glow)"/>
+    <text x="716" y="317" fill="#a7f3d0" font-size="13" font-weight="700">NETWORKS</text>
+    <text x="697" y="338" fill="#8bb7ad" font-size="10" class="mono">SDN / NFV / MANO</text>
+  </g>
+  <!-- Domain node: architecture -->
+  <g class="float" style="animation-delay:-.7s">
+    <rect x="956" y="291" width="176" height="62" rx="11" fill="#332519" stroke="#a16207"/>
+    <circle cx="977" cy="313" r="6" fill="#fbbf24" filter="url(#glow)"/>
+    <text x="992" y="317" fill="#fde68a" font-size="13" font-weight="700">ARCHITECTURE</text>
+    <text x="973" y="338" fill="#c7ae83" font-size="10" class="mono">SYSTEMS / SIMULATION</text>
+  </g>
+
+  <!-- Scanning beam -->
+  <rect x="625" y="113" width="534" height="2" fill="#67e8f9" opacity=".12" class="scan"/>
+
+  <!-- Footer telemetry strip -->
+  <path d="M34 399H1166" stroke="#36506f" stroke-opacity=".7"/>
+  <text x="42" y="417" fill="#7290b4" font-size="10" class="mono" letter-spacing="1.1">CURIOSITY: ON</text>
+  <text x="600" y="417" fill="#7290b4" font-size="10" class="mono" text-anchor="middle" letter-spacing="1.1">LEARN  ·  EXPERIMENT  ·  BUILD  ·  ITERATE</text>
+  <text x="1158" y="417" fill="#7290b4" font-size="10" class="mono" text-anchor="end">PROFILE / SYSTEM</text>
+</svg>
