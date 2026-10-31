@@ -150,7 +150,7 @@ An exploration of a coordinated, multi-agent engineering environment. The design
   <summary><b>Open the 3D contribution profile</b></summary>
   <br />
   <div align="center">
-    <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Animated 3D GitHub contribution calendar" />
+    <img src="https://raw.githubusercontent.com/abhayshravan357-sudo/abhayshravan357-sudo/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Animated 3D GitHub contribution calendar" />
   </div>
 </details>
 
