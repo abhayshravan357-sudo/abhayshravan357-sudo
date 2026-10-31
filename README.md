@@ -5,9 +5,9 @@
 
 <div align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:07111F,38:172554,72:312E81,100:0369A1&height=230&section=header&text=ABHAY%20SHRAVAN&fontSize=48&fontColor=F8FAFC&fontAlignY=38&desc=MULTI-DISCIPLINARY%20COMPUTER%20ENGINEER&descAlignY=59&descSize=15"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:07111F,38:172554,72:312E81,100:0369A1&height=230&section=header&text=ABHAY%20SAWANT&fontSize=48&fontColor=F8FAFC&fontAlignY=38&desc=MULTI-DISCIPLINARY%20COMPUTER%20ENGINEER&descAlignY=59&descSize=15"
     width="100%"
-    alt="Abhay Shravan — Multi-disciplinary Computer Engineer"
+    alt="Abhay Sawant — Multi-disciplinary Computer Engineer"
   />
 
   <img
